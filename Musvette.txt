@@ -1,0 +1,4 @@
+{"model":"gpt-3.5-turbo",
+"messages":[{"role":"user",
+"content":"1. dunya savasinda bilinmeyen olaylar hakkinda kisa bir 200 kelimelik bir olay olustur"}],
+"max_tokens":50}

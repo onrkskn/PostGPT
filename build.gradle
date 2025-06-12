@@ -1,0 +1,20 @@
+plugins {
+    id 'groovy'
+    id 'application'
+}
+
+group = 'org.gptscript'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.9'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.26.0'
+    implementation 'org.yaml:snakeyaml:2.2'
+    implementation 'org.codehaus.groovy:groovy-json:3.0.9'
+}
+
+mainClassName = 'Gptscript'
